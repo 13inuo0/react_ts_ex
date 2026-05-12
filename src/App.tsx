@@ -18,12 +18,16 @@
 // }
 
 import Header from "./Header";
+import Footer from "./Footer";
+import Home from "./Home";
 
 export default function App() {
   return (
     <>
       <h1>App Component</h1>
       <Header />
+      <Home/>
+      <Footer/>
     </>
   );
 }
